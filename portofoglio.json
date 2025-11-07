@@ -1,0 +1,378 @@
+{
+  "personal": {
+    "name": "YAKAM KEMAJOU JEAN PIERRE DIMITRI",
+    "title": "Computer Engineering Student & Full Stack Developer",
+    "tagline": "Building innovative solutions through code and dedication",
+    "bio": "I'm an ambitious computer engineering student at the University of Trieste with a passion for creating web applications. I combine technical skills with a strong work ethic to deliver quality solutions.",
+    "location": "Trieste, Italy",
+    "email": "yakamdimitri@gmail.com",
+    "phone": "+39 392 700 1843",
+    "avatar": "images/profile.jpg",
+    "resume_url": "/cv.pdf"
+  },
+
+  "social": {
+    "github1": "https://github.com/yakani",
+    "github":"https://github.com/yakamkemajoujeanpierredimitri",
+    "linkedin": "https://www.linkedin.com/in/dimitri-yakam-121443381"
+  },
+
+  "about": {
+    "description": "I'm currently pursuing my first year in Computer Engineering at the University of Trieste. My approach combines academic knowledge with hands-on development experience, focusing on creating scalable and maintainable solutions. I'm disciplined, hardworking, and adapt easily to new challenges.",
+    "interests": [
+      "Full Stack Development",
+      "Mobile Development",
+      "Web Applications",
+      "Open Source Contribution"
+    ],
+    "currently_learning": [
+      "C++ Programming",
+      "Advanced JavaScript patterns",
+      "Computer Engineering fundamentals"
+    ],
+    "available_for": [
+      "Internship opportunities",
+      "Freelance projects",
+      "Collaboration on open source",
+      "Part-time development work"
+    ],
+    "characteristics": [
+      "Disciplined",
+      "Hard working",
+      "Adaptable",
+      "Ambitious",
+      "Goal-oriented",
+      "Cheerful"
+    ]
+  },
+
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "React", "level": 85 },
+        { "name": "React Native", "level": 80 },
+        { "name": "JavaScript", "level": 80 },
+        { "name": "TypeScript", "level": 75 },
+        { "name": "CSS", "level": 80 },
+        { "name": "HTML", "level": 90 }
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "Node.js", "level": 75 },
+        { "name": "C#", "level": 70 },
+        { "name": ".NET", "level": 70 }
+      ]
+    },
+    {
+      "category": "Tools & Others",
+      "items": [
+        { "name": "Git", "level": 80 },
+        { "name": "Socket.io", "level": 75 },
+        { "name": "Problem Solving", "level": 85 }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "E-Commerce Platform",
+      "slug": "ecommerce-platform",
+      "short_description": "Full-featured online shopping platform built with TypeScript",
+      "description": "A comprehensive e-commerce solution with product management, shopping cart functionality, and user authentication. Built using modern TypeScript practices for type safety and maintainability.",
+      "thumbnail": "images/yak.png",
+      "images": [],
+      "tags": ["TypeScript", "E-Commerce", "Web Development"],
+      "category": "Web Development",
+      "featured": true,
+      "date": "2024",
+      "duration": "Ongoing",
+      "role": "Solo Developer",
+      "team_size": 1,
+      "links": {
+        "github": "https://github.com/yakani/e-commerce"
+      },
+      "highlights": [
+        "Built with TypeScript for type safety",
+        "Implemented user authentication",
+        "Product catalog management",
+        "Shopping cart functionality"
+      ]
+    },
+    {
+      "id": "project-2",
+      "title": "Real-Time Chat Application",
+      "slug": "socket-io-chat",
+      "short_description": "Real-time messaging application using Socket.io",
+      "description": "A real-time chat application that enables instant messaging between users. Implements WebSocket technology for bidirectional communication.",
+      "thumbnail": null,
+      "images": [],
+      "tags": ["JavaScript", "Socket.io", "Real-time", "WebSockets"],
+      "category": "Web Development",
+      "featured": true,
+      "date": "2024",
+      "duration": "3 months",
+      "role": "Solo Developer",
+      "team_size": 1,
+      "links": {
+        "live": "https://socket-io-nine-beta.vercel.app/",
+        "github": "https://github.com/yakani/socket-io"
+      },
+      "highlights": [
+        "Real-time message delivery",
+        "WebSocket implementation",
+        "Deployed on Vercel",
+        "User-friendly interface"
+      ]
+    },
+    {
+      "id": "project-3",
+      "title": "Social Network Application",
+      "slug": "social-network",
+      "short_description": "Social networking platform with user interactions",
+      "description": "A social networking application featuring user profiles, posts, and social interactions. Built with modern JavaScript frameworks.",
+      "thumbnail": "images/yak.png",
+      "images": [],
+      "tags": ["JavaScript", "Social Media", "Web Development"],
+      "category": "Web Development",
+      "featured": true,
+      "date": "2024",
+      "duration": "4 months",
+      "role": "Lead Developer",
+      "team_size": 1,
+      "links": {
+        "github": "https://github.com/yakani/social",
+        "live": "https://social-psi-five.vercel.app/"
+      },
+      "highlights": [
+        "User authentication and profiles",
+        "Post creation and sharing",
+        "Social interactions",
+        "Responsive design"
+      ]
+    },
+    {
+      "id": "project-4",
+      "title": "Todo Application",
+      "slug": "todo-app",
+      "short_description": "Task management application with CSS styling",
+      "description": "A clean and intuitive todo list application for managing daily tasks and productivity.",
+      "thumbnail": null,
+      "images": [],
+      "tags": ["CSS", "JavaScript", "Productivity"],
+      "category": "Web Development",
+      "featured": false,
+      "date": "2024",
+      "duration": "1 month",
+      "role": "Solo Developer",
+      "team_size": 1,
+      "links": {
+        "github": "https://github.com/yakani/todo-app",
+        "live": "https://todo-app-chi-blue.vercel.app"
+      },
+      "highlights": [
+        "Clean UI design",
+        "Task management features",
+        "Local storage integration"
+      ]
+    },
+    {
+      "id": "project-5",
+      "title": "Streaming Platform",
+      "slug": "streaming-app",
+      "short_description": "Video streaming website interface",
+      "description": "A streaming platform interface built with JavaScript, featuring video content browsing and playback capabilities.",
+      "thumbnail": null,
+      "images": [],
+      "tags": ["JavaScript", "Streaming", "Video"],
+      "category": "Web Development",
+      "featured": false,
+      "date": "2024",
+      "duration": "2 months",
+      "role": "Solo Developer",
+      "team_size": 1,
+      "links": {
+        "github": "https://github.com/yakani/streaming-app"
+      },
+      "highlights": [
+        "Video content interface",
+        "Responsive design",
+        "Browse functionality"
+      ]
+    },
+    {
+      "id": "project-6",
+      "title": " Academic and professional  Platform",
+      "slug": "cama",
+      "short_description": " Academic and professional platform  application",
+      "description": "",
+      "thumbnail": "images/cama.jpg",
+      "images": [],
+      "tags": ["JavaScript", "Web App"],
+      "category": "Web Development",
+      "featured": false,
+      "date": "2024",
+      "duration": "3 months",
+      "role": "Solo Developer",
+      "team_size": 1,
+      "links": {
+        "github": "https://github.com/yakamkemajoujeanpierredimitri/CAMAmeli",
+        "live": "https://cam-ameli.vercel.app"
+      },
+      "highlights": [
+        "Accademic",
+        "User-friendly interface",
+        "Secure information handling"
+      ]
+    },
+    {
+      "id": "project-7",
+      "title": "Social App - React Native",
+      "slug": "social-app-mobile",
+      "short_description": "Cross-platform mobile social networking application built with React Native",
+      "description": "A full-featured mobile social networking application for iOS and Android. Includes user profiles, real-time feeds, post interactions, and messaging capabilities. Built with React Native for cross-platform compatibility.",
+      "thumbnail": null,
+      "images": [],
+      "tags": ["React Native", "Mobile Development", "Social Media", "JavaScript", "Cross-platform"],
+      "category": "Mobile Development",
+      "featured": true,
+      "date": "2024",
+      "duration": "3months",
+      "role": "Solo Developer",
+      "team_size": 1,
+      "links": {
+        "github": "https://github.com/yakamkemajoujeanpierredimitri/social_app"
+      },
+      "highlights": [
+        "Cross-platform iOS and Android support",
+        "Real-time social feed",
+        "User authentication and profiles",
+        "Post creation and interactions",
+        "Native mobile experience",
+        "1 GitHub star"
+      ],
+      "challenges": "Creating a seamless mobile experience that works consistently across both iOS and Android platforms while maintaining performance.",
+      "solution": "Leveraged React Native's cross-platform capabilities with platform-specific optimizations where needed for optimal performance."
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "TriesteNext - Festival della Ricerca Scientifica",
+      "position": "Volunteer",
+      "location": "Trieste, Italy",
+      "start_date": "2025-09-25",
+      "end_date": "2025-09-29",
+      "current": false,
+      "description": "Supported the organization and management of the TriesteNext scientific research festival at the University of Trieste.",
+      "responsibilities": [
+        "Welcomed and oriented festival visitors",
+        "Provided assistance during conferences and presentations",
+        "Supported event organization and logistics",
+        "Facilitated smooth festival operations"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Università degli Studi di Trieste",
+      "degree": "Bachelor's Degree",
+      "field": "Computer Engineering (Ingegneria Informatica)",
+      "location": "Trieste, Italy",
+      "start_date": "2024-09",
+      "end_date": null,
+      "current": true,
+      "relevant_coursework": [
+        "Computer Programming",
+        "Data Structures",
+        "Computer Architecture",
+        "Mathematics for Engineering"
+      ]
+    },
+    {
+      "institution": "Golden Bilingua Institute",
+      "degree": "High School Diploma",
+      "field": "Diploma di Maturità",
+      "location": "Cameroon",
+      "start_date": "2021",
+      "end_date": "2022",
+      "gpa": "19/25",
+      "honors": ["GOOD"]
+    }
+  ],
+
+  "languages": [
+    {
+      "name": "French",
+      "level": "Native",
+      "proficiency": 100
+    },
+    {
+      "name": "English",
+      "level": "Advanced",
+      "proficiency": 90
+    },
+    {
+      "name": "Italian",
+      "level": "Intermediate",
+      "proficiency": 70
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "C# Basic Certification",
+      "issuer": "HackerRank",
+      "date": "2024"
+    },
+    {
+      "name": "Frontend Developer (React) Certification",
+      "issuer": "HackerRank",
+      "date": "2024"
+    },
+    {
+      "name": "JavaScript Intermediate Certification",
+      "issuer": "HackerRank",
+      "date": "2024"
+    }
+  ],
+
+  "contact_preferences": {
+    "preferred_method": "email",
+    "response_time": "24-48 hours",
+    "availability": "Flexible - Student schedule",
+    "open_to": [
+      "Internship opportunities",
+      "Part-time work",
+      "Freelance projects",
+      "Collaboration",
+      "Learning opportunities"
+    ]
+  },
+
+  "seo": {
+    "title": "Dimitri Yakam - Computer Engineering Student & Full Stack Developer",
+    "description": "Portfolio of Dimitri Yakam, a Computer Engineering student at University of Trieste specializing in React, JavaScript, and full stack development. View projects and get in touch.",
+    "keywords": [
+      "computer engineering student",
+      "full stack developer",
+      "react developer",
+      "javascript developer",
+      "trieste developer",
+      "web developer portfolio"
+    ],
+    "og_image": "/images/og-image.jpg"
+  },
+
+  "theme": {
+    "primary_color": "#3b82f6",
+    "secondary_color": "#8b5cf6",
+    "accent_color": "#f59e0b",
+    "style": "modern-minimal",
+    "dark_mode": true
+  }
+}

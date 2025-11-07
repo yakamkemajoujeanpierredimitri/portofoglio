@@ -1,0 +1,259 @@
+/* General Body Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header a.btn {
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+header a.btn:hover {
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 5px solid #fff;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+/* About */
+#about-interests li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+#about-interests i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+/* Skills */
+#skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-category {
+    width: 30%;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-category h3 {
+    margin-top: 0;
+}
+
+.skill-category ul {
+    padding: 0;
+    list-style: none;
+}
+
+.skill-category li {
+    margin-bottom: 10px;
+}
+
+.skill-category i {
+    margin-right: 10px;
+    color: var(--accent-color);
+}
+
+/* Projects */
+#projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #fff;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+    width: 100%;
+}
+
+.project-card-content {
+    padding: 15px;
+}
+
+.project-links a {
+    margin-right: 15px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.project-links i {
+    margin-right: 5px;
+}
+
+/* Experience & Education */
+.job, .education-item, .certification-item {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.job h3, .education-item h3, .certification-item h3 {
+    margin-top: 0;
+}
+
+.job i, .education-item i, .certification-item i {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+/* Contact */
+#contact .container {
+    text-align: center;
+}
+
+#social-links a {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+#social-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Theme Colors from JSON */
+:root {
+    --primary-color: #3b82f6;
+    --secondary-color: #8b5cf6;
+    --accent-color: #f59e0b;
+}
+
+body.dark-mode {
+    background: #222;
+    color: #f4f4f4;
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background: #111;
+}
+
+body.dark-mode .project-card, body.dark-mode .skill-category, body.dark-mode .job, body.dark-mode .education-item, body.dark-mode .certification-item {
+    background: #333;
+    border-color: #555;
+}
+
+body.dark-mode #social-links a {
+    color: #f4f4f4;
+}
+
+header {
+    background: var(--primary-color);
+}
+
+section h2 {
+    color: var(--primary-color);
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 1.5rem;
+    line-height: 1;
+}
