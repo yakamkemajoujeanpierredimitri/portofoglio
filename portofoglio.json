@@ -244,7 +244,8 @@
       "role": "Solo Developer",
       "team_size": 1,
       "links": {
-        "github": "https://github.com/yakamkemajoujeanpierredimitri/social_app"
+        "github": "https://github.com/yakamkemajoujeanpierredimitri/social_app",
+        "live": "https://social-app-two-olive.vercel.app/"
       },
       "highlights": [
         "Cross-platform iOS and Android support",
