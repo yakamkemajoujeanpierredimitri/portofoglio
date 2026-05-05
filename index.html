@@ -3,92 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dimitri Yakam - Portfolio</title>
+    <title>Dimitri Yakam | Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
-</head><body>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+</head>
+<body class="dark-mode">
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="logo">DY<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="newcv.pdf" class="btn btn-outline" download>Resume</a>
+            </div>
+        </div>
+    </nav>
 
-    <header>
-        <div class="container">
-            <img src="images/avatar.png" alt="Dimitri Yakam" id="avatar" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; display: block; margin-bottom: 1rem;">
-            <h1 id="owner-name"></h1>
-            <p id="owner-title"></p>
-            <a href="" id="resume-download" class="btn" download>Download CV</a>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#certifications">Certifications</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <header id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h2 class="badge">Available for opportunities</h2>
+                <h1 id="owner-name">Dimitri Yakam</h1>
+                <p id="owner-tagline" class="tagline">Building innovative solutions through code and dedication</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="images/newprofile.png" alt="Dimitri Yakam" id="avatar">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
         </div>
     </header>
 
     <main>
         <section id="about">
             <div class="container">
-                <h2>About Me</h2>
-                <p id="about-description"></p>
-                <h3>Interests</h3>
-                <ul id="about-interests"></ul>
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p id="about-description"></p>
+                        <div class="characteristics" id="about-characteristics"></div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div id="edu-summary">Computer Engineering Student</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-code"></i>
+                            <div id="skill-summary">Full Stack Expertise</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="skills">
             <div class="container">
-                <h2>Skills</h2>
-                <div id="skills-container"></div>
+                <div class="section-header">
+                    <h2>Technical Proficiency</h2>
+                    <div class="underline"></div>
+                </div>
+                <div id="skills-grid" class="skills-grid">
+                    <!-- Skills will be injected here -->
+                </div>
             </div>
         </section>
 
         <section id="projects">
             <div class="container">
-                <h2>Projects</h2>
-                <div id="projects-container"></div>
-            </div>
-        </section>
-
-        <section id="experience">
-            <div class="container">
-                <h2>Experience</h2>
-                <div id="experience-container"></div>
-            </div>
-        </section>
-
-        <section id="education">
-            <div class="container">
-                <h2>Education</h2>
-                <div id="education-container"></div>
-            </div>
-        </section>
-
-        <section id="certifications">
-            <div class="container">
-                <h2>Certifications</h2>
-                <div id="certifications-container"></div>
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <div class="underline"></div>
+                </div>
+                <div id="projects-container" class="projects-grid">
+                    <!-- Projects will be injected here -->
+                </div>
             </div>
         </section>
 
         <section id="contact">
             <div class="container">
-                <h2>Contact</h2>
-                <p>Email: <a id="contact-email" href=""></a></p>
-                <p>Phone: <span id="contact-phone"></span></p>
-                <div id="social-links"></div>
+                <div class="section-header">
+                    <h2>Let's Connect</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span id="contact-email">yakamdimitri@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span id="contact-phone">+39 392 700 1843</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-location-dot"></i>
+                                <span>Trieste, Italy</span>
+                            </div>
+                        </div>
+                        <div id="social-links" class="social-links">
+                            <!-- Social links will be injected here -->
+                        </div>
+                    </div>
+                    <div class="contact-form-placeholder">
+                        <p>I'm currently looking for new opportunities and my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                        <a href="mailto:yakamdimitri@gmail.com" class="btn btn-primary large">Send a Message</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Dimitri Yakam. All rights reserved.</p>
+            <p>&copy; 2026 Dimitri Yakam. All rights reserved.</p>
+            <p class="footer-credit">Designed & Built by Dimitri</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
-</body></html>
+</body>
+</html>
